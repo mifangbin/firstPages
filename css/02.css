@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding: 0;
+}
+header{
+	width:90%;
+	height:140px;
+	margin:5px auto;
+}
+.logo{
+	display:inline-block;
+	margin:20px 30px;
+	padding:3px;
+	font-size:19px;
+	color:black;
+	height:30px;
+	line-height:1.8em;
+	border:3px solid #fff;
+	border-radius:10px;
+}
+.search{
+	display:inline-block;
+	margin-left:200px;
+}
+.banner{
+	display:inline-block;
+	font-family:"Bodoni MT Black";
+	font-weight:bold;
+	font-style:italic;
+	font-size:30px;
+	color:black;
+}
+header nav ul{
+	margin-right:150px;
+	text-align:right;
+}
+header nav ul>li{
+	display:inline;
+}
+header nav ul>li a{
+	padding:10px 10px;
+	letter-spacing:5px;
+	font-size:18px;
+	color:black;
+}
+header nav ul>li.active a{
+	font-weight:bold;
+	color:black;
+	border-bottom:3px solid #0D0D0D;
+}

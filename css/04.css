@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding: 0;
+}
+header{
+	width:90%;
+	height:140px;
+	margin:5px auto;
+}
+.logo{
+	display:inline-block;
+	margin:20px 30px;
+	padding:3px;
+	font-size:19px;
+	color:white;
+	height:30px;
+	line-height:1.8em;
+	border:3px solid #fff;
+	border-radius:10px;
+}
+.search{
+	display:inline-block;
+	margin-left:200px;
+}
+.banner{
+	display:inline-block;
+	font-family:"Bodoni MT Black";
+	font-weight:bold;
+	font-style:italic;
+	font-size:30px;
+	color:#fff;
+}
+header nav ul{
+	margin-right:150px;
+	text-align:right;
+}
+header nav ul>li{
+	display:inline;
+}
+header nav ul>li a{
+	padding:10px 10px;
+	letter-spacing:5px;
+	font-size:18px;
+	color:#EEEEEE;
+}
+header nav ul>li.active a{
+	font-weight:bold;
+	color:#fff;
+	border-bottom:3px solid #fff;
+}
+.all {
+	width: 1800px;
+	height: 1000px;
+}
+.zuo {
+	width: 350px;
+	height: 800px;
+	float: left
+}
+.left {
+	width: 450px;
+	height: 800px;
+	float: left
+}
+.left-1 {
+	width: 20px;
+	height: 700px;
+	float: left
+}
+.left-2 {
+	width: 430px;
+	height: 700px;
+	float: left;
+	color: #F7F7F7;
+	font-size: 18px
+}
+.mid {
+	width: 200px;
+	height: 800px;
+	float: left
+}
+.right {
+	width: 450px;
+	height: 800px;
+	float: left
+}
+.right-1 {
+	width: 20px;
+	height: 700px;
+	float: left
+}
+.rught-2 {
+	width: 430px;
+	height: 700px;
+	float: left
+}
+.you {
+	width: 450px;
+	height: 800px;
+	float: left
+}
